@@ -1,0 +1,16 @@
+.ul{
+    display: flex;
+    background-color: lightgreen;
+}
+
+.li{
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+}
