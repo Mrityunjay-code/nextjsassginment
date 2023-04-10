@@ -3,12 +3,10 @@ import { useRouter } from "next/router";
 
 import Layout from "@/components/layout";
 
-export default function postCSR(){
+export default function PostCSR(){
     const [post, setPost] = useState("");
     const router = useRouter()
-    // const [id, setId] = useState("");
 
-    // setId(useRouter().query.id)
   
     async function getPost(){
         const url = `https://jsonplaceholder.typicode.com/posts/${router.query.id}`

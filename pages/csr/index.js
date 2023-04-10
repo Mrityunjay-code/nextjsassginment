@@ -4,7 +4,7 @@ import Link from "next/link"
 import Layout from "@/components/layout"
 import Post from "@/components/post"
 
-export default function postsCSR() {
+export default function PostsCSR() {
     const [posts, setPosts] = useState([])
 
     async function getUsers() {
