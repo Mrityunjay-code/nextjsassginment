@@ -25,7 +25,7 @@ export default function PostsCSR() {
                 <div className="d-flex w-100 justify-content-around flex-wrap">
                     {posts.map((post) => {
                         return (
-                            <Post post={post} ></Post>
+                            <Post key={post.id} post={post} ></Post>
                         )
                     })
                     }
