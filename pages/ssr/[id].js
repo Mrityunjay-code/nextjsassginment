@@ -18,8 +18,11 @@ export default function SsrIndividual({ dataIndiv }) {
           <div className='card text-center p-4 bg-light'>
             <h4>NAME: {dataIndiv.name}</h4>
             <p>UserName: {dataIndiv.username} </p>
+            <p>Email: {dataIndiv.email} </p>
             <p>City: {dataIndiv.address.city} </p>
-            <p>Company: {dataIndiv.company.name} </p>
+            <p>Company: {dataIndiv.company.name} <br/>
+              (Bussiness: {dataIndiv.company.bs})
+            </p>
           </div>
           <div className='d-flex justify-content-center mt-2'>
           <button onClick={regresar} className='btn btn-primary'>Back..</button>
