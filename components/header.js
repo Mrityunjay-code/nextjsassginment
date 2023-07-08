@@ -9,11 +9,11 @@ export default function Header() {
             </Link>
            
             <Link href="/ssr" legacyBehavior>
-                <a className={styles.a}><li className={styles.li}>SSR Users</li></a>
+                <a className={styles.a}><li className={styles.li}>Users</li></a>
             </Link>
             
             <Link href="/csr" legacyBehavior>
-                <a className={styles.a}> <li className={styles.li}>CSR Posts</li></a>
+                <a className={styles.a}> <li className={styles.li}> Posts</li></a>
             </Link>
         </ul>
     )

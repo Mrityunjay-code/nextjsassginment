@@ -9,7 +9,7 @@ export default function PostCSR(){
 
   
     async function getPost(){
-        const url = `https://jsonplaceholder.typicode.com/posts/${router.query.id}`
+        const url = `https://fakestoreapi.com/products/${router.query.id}`
         const res = await fetch(url)
         const individualPost = await res.json()
         setPost(individualPost)
@@ -30,6 +30,7 @@ export default function PostCSR(){
             <h3>Post number{post.id} </h3>
             <h5>{post.title}</h5>
             <p>{post.body}</p>
+            <p>{post.image}</p>
             <br />
             <button className="btn btn-primary" onClick={back}>Back...</button>
         </div>

@@ -19,6 +19,7 @@ export default function Users({ data }) {
                                 <tr className="table-dark">
                                     <th>ID</th>
                                     <th>Name</th>
+                                    <th>Image</th>
                                     <th>Username</th>
                                     <th>Mail</th>
                                     <th>Actions</th>
@@ -33,6 +34,7 @@ export default function Users({ data }) {
                                             <tr key={user.id}>
                                                 <td>{user.id}</td>
                                                 <td>{user.name}</td>
+                                                <td>{user.image}</td>
                                                 <td>{user.username}</td>
                                                 <td>{user.email}</td>
                                                 <td>

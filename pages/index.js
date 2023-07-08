@@ -8,9 +8,7 @@ export default function index() {
     <Layout>
       <div className="container ">
        <div className="card p-4 bg-light text-center">
-          <p> On the top of this page, you will find a nav bar with links what will redirect you to a list of &quot;users&quot; and &quot;posts&quot;. </p>
-          <p> The data into this lists where collected from &quot;JsonPlaceHolder FAKE FREE API&quot;.</p>
-          <p>Users data was server side renderized, while Posts data was Client side renderized, in order to practice both ways of rendering obtained information from APIs</p>
+         <h1>Welcome the page</h1>
        </div>
       </div>
     </Layout>

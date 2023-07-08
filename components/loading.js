@@ -6,7 +6,7 @@ export default function Loading() {
   return (
    
       <div className={Style.spinner} >
-        <p className='p'> Cargando </p>
+        <p className='p'> please wait.. </p>
       </div>
 
   )
